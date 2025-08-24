@@ -1,0 +1,57 @@
+# =========================
+# ROS / Catkin build files
+# =========================
+build/
+devel/
+install/
+log/
+
+# colcon (ROS2) build outputs
+build/
+install/
+log/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+
+# =========================
+# CMake / Make
+# =========================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# =========================
+# Editor / OS Files
+# =========================
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# =========================
+# Docker / Backup
+# =========================
+*.tar
+*.bak
+*.tmp
+
+# =========================
+# Logs
+# =========================
+*.log
+*.bag
+*.test
